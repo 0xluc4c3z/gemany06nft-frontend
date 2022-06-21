@@ -123,14 +123,14 @@ export const Mainmint = ({ account }) => {
       // bg='red'
       justify='center'>
       <HStack position='absolute'>
-        <Image src='../../public/cards/flags/italia.png' height='auto' width='50px'  />
-        <Image src='../../public/cards/flags/francia.png' height='auto' width='52px' />
-        <Image src='../../public/cards/flags/alemania.png' height='auto' width='50px'  />
-        <Image src='../../public/cards/flags/portugal.png' height='auto' width='49px'  />
-        <Image src='../../public/cards/flags/argentina.png' height='auto' width='51px'  />
-        <Image src='../../public/cards/flags/inglaterra.png' height='auto' width='50px'  />
-        <Image src='../../public/cards/flags/brazil.png' height='auto' width='52px'  />
-        <Image src='../../public/cards/flags/ucrania.png' height='auto' width='47px'  />
+        <Image src='https://res.cloudinary.com/dbewcitss/image/upload/v1655839033/italia_zr6zjd.png' height='auto' width='50px'  />
+        <Image src='https://res.cloudinary.com/dbewcitss/image/upload/v1655839033/francia_jbxbh7.png' height='auto' width='52px' />
+        <Image src='https://res.cloudinary.com/dbewcitss/image/upload/v1655839033/alemania_azsd0n.png' height='auto' width='50px'  />
+        <Image src='https://res.cloudinary.com/dbewcitss/image/upload/v1655839034/portugal_r2ng9q.png' height='auto' width='49px'  />
+        <Image src='https://res.cloudinary.com/dbewcitss/image/upload/v1655839033/argentina_soswcw.png' height='auto' width='51px'  />
+        <Image src='https://res.cloudinary.com/dbewcitss/image/upload/v1655839033/inglaterra_m7o3zq.png' height='auto' width='50px'  />
+        <Image src='https://res.cloudinary.com/dbewcitss/image/upload/v1655839033/brazil_qwhxki.png' height='auto' width='52px'  />
+        <Image src='https://res.cloudinary.com/dbewcitss/image/upload/v1655839034/ucrania_j3oxxl.png' height='auto' width='47px'  />
       </HStack>
       <VStack position='absolute'
         marginTop='90px'>
@@ -159,7 +159,7 @@ export const Mainmint = ({ account }) => {
               <Text>
                   Buffon receives Yashin <br />Award for being<br /> the best goalkeeper <br /> of the tournament
               </Text>
-              <Image src='../../public/Buffon.png' alt='Buffon' height='250px' width='auto'
+              <Image src='https://res.cloudinary.com/dbewcitss/image/upload/v1655838663/Buffon_ptcihc.png' alt='Buffon' height='250px' width='auto'
                 marginBottom='15px'
                 boxShadow='0px 0px 15px black' />
               <Button onClick={() => handleMintGoalkeeper()}>MINT GOALKEEPER</Button>
@@ -174,7 +174,7 @@ export const Mainmint = ({ account }) => {
               <Text>
                 Cannavaro received the silver <br />ball award for being the <br />second most outstanding <br />player of the tournament.
               </Text>
-              <Image src='../../public/cannavaro.png' alt='Buffon' height='250px' width='auto' 
+              <Image src='https://res.cloudinary.com/dbewcitss/image/upload/v1655838664/cannavaro_jky1wd.png' alt='Buffon' height='250px' width='auto' 
               boxShadow='0px 0px 15px black'  />
               <Button onClick={() => handleMintDefender()}>MINT DEFENDER</Button>
               <Text>minted defenders</Text>
@@ -188,35 +188,35 @@ export const Mainmint = ({ account }) => {
                 display='flex'
 
                 >
-                <Image src='../../public/shovkoski.png' alt='Buffon' height='250px' width='auto' 
+                <Image src='https://res.cloudinary.com/dbewcitss/image/upload/v1655838705/shovkoski_ntnpvc.png' alt='Buffon' height='250px' width='auto' 
                   marginBottom='15px' 
                   boxShadow='0px 0px 15px black'  
                   position='absolute'
                   zIndex='0'
                   left='34%'
                   top='18%' />
-                <Image src='../../public/terry.png' alt='Buffon' height='250px' width='auto' 
+                <Image src='https://res.cloudinary.com/dbewcitss/image/upload/v1655838664/terry_hfvnjc.png' alt='Buffon' height='250px' width='auto' 
                   marginBottom='15px' 
                   boxShadow='0px 0px 15px black'
                   position='absolute'
                   zIndex='1'
                   left='39%'
                   top='18%' />
-                <Image src='../../public/cafu.png' alt='Buffon' height='250px' width='auto' 
+                <Image src='https://res.cloudinary.com/dbewcitss/image/upload/v1655838663/cafu_lpkh92.png' alt='Buffon' height='250px' width='auto' 
                   marginBottom='15px' 
                   boxShadow='0px 0px 15px black'
                   position='absolute'
                   zIndex='2'
                   left='45%'
                   top='18%' />
-                <Image src='../../public/riquelme.png' alt='Buffon' height='250px' width='auto' 
+                <Image src='https://res.cloudinary.com/dbewcitss/image/upload/v1655838663/riquelme_e9qtop.png' alt='Buffon' height='250px' width='auto' 
                   marginBottom='15px' 
                   boxShadow='0px 0px 15px black'
                   position='absolute'
                   zIndex='3'
                   left='51%'
                   top='18%'  />
-                <Image src='../../public/figo.png' alt='Buffon' height='250px' width='auto' 
+                <Image src='https://res.cloudinary.com/dbewcitss/image/upload/v1655838663/figo_dv6btf.png' alt='Buffon' height='250px' width='auto' 
                   marginBottom='15px' 
                   boxShadow='0px 0px 15px black'
                   position='absolute'
@@ -238,7 +238,7 @@ export const Mainmint = ({ account }) => {
               <Text>
                 Zidane received the gold <br />ball award for being <br />the most outstanding <br />player of the tournament.
               </Text>
-              <Image src='../../public/zidane.png' alt='Buffon' height='250px' width='auto' 
+              <Image src='https://res.cloudinary.com/dbewcitss/image/upload/v1655838664/zidane_xi23vb.png' alt='Buffon' height='250px' width='auto' 
               boxShadow='0px 0px 15px black'  />
               <Button onClick={() => handleMintMidfielder()}>MINT MIDFIELDER</Button>
               <Text>minted midfielder</Text>
@@ -251,7 +251,7 @@ export const Mainmint = ({ account }) => {
               <Text>
                 Klose received the golden <br />boot award for being <br />the tournament's top<br /> scorer.
               </Text>
-              <Image src='../../public/klose.png' alt='Buffon' height='250px' width='auto' 
+              <Image src='https://res.cloudinary.com/dbewcitss/image/upload/v1655838663/klose_x1prvd.png' alt='Buffon' height='250px' width='auto' 
               boxShadow='0px 0px 15px black'  />
               <Button onClick={() => handleMintForward()}>MINT FORWARD</Button>
               <Text>minted forward</Text>
