@@ -1,0 +1,67 @@
+@font-face {
+  font-family: reGermany2006;
+  src: url('./reGermany2006.ttf') format('truetype');
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: reGermany2006;
+  
+}
+
+.cards{
+  background-color: #C80606;
+  width: 250px;
+  height: 350px;
+  margin: auto;
+  border: #475247 solid 5px;
+  margin-top: 50px;
+}
+
+
+.image{
+  background-color: #005A00;
+  height: 250px;
+}
+
+.person{
+  width: 250px;
+}
+
+.player{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 30px;
+  padding: 12px;
+  padding-left: 15px;
+  padding-right: 20px;
+  /* padding-right: 20px; */
+  color: white;
+}
+
+.name{
+  font-size: 21px;
+  /* font-size: 30px; */
+}
+
+.info{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 20px;
+  padding-right: 10px;
+  padding-left: 12px;
+  font-size: 18px;
+  /* color: #6C6C6D; */
+  color: #939393;
+}
+
+.flag{
+  width: 55px;
+}
+
+
